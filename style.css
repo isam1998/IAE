@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0; 
+
+}
+
+
+
+   .navbar {font-weight: bold;height: 40px;z-index: 2;opacity: 0.6;direction: rtl;color: red;}
+   
+.collapse{background-color: white;height: 33px;}
+
+
+.carousel img {z-index: 1;opacity: 0.5;height: 530px;  }
+
+.dropdown-menu:hover{background-color: #b2ebf2;}
+
+.card-img-top {height: 200px;}
+.card{height: 370px; margin:3px; }
+.card a{color: #001326;font-weight: bold;border: none;}
+.card p,h5{color: white;}
+.card-body{background-color:#001326; }
+.jumbotron{background-image: url('580-2.jpg');border-bottom:double;
+background-size: cover;
+height: 560px;color: white;font-weight: bold;}
+.jumbotron p{font-weight: bold;}
+.cv{text-align: center;color: white;}
+.end{background-color:#555;text-align: center;font-weight: bold;color:  #f6f5f5;opacity: 0.8;}
+.om{width: 60%;text-align: center;margin: auto}
+i{font-size: 30px;color: #a6f0c6;width: 20px;
+border-radius: 50%;
+transition: .4s ;border: 1px solid rgba(0,0,0,0.01);
+   transform: translateY(3px);
+
+}
+ 
+.container i:hover{font-size: 40px;color:#ff9292;}
+.container a{width: 10px;margin: 40px;}
+.container {color:white;transition: 2.3s; direction: rtl;text-align: center;
+animation: isam 4s infinite;}
+.container  p{text-align: right}
+.container  h2 {text-align:right}
+@keyframes isam{
+   0%{color:#94EBCD;}
+   25%{color: #719fb0;}
+   50%{ color: #ffc478;}
+   100%{ color: #ee99a0;}
+   
+}
